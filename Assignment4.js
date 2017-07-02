@@ -1,12 +1,12 @@
 var body = document.getElementsByTagName('body')[0];
 var container = document.createElement('div');
 var myCanvas = document.createElement('canvas');
+var color = "black";
 
 
 body.appendChild(container);
 container.appendChild(myCanvas);
 
-var color = "black";
 
 
 var sideDiv = document.createElement('div');
